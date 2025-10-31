@@ -1,8 +1,4 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-html, body {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
+
 }
 
 
@@ -17,6 +13,12 @@ html, body {
   --ui: 'Poppins', sans-serif;
 }
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  
 /* RESET / BASE */
 *{box-sizing:border-box}
 html,body{height:100%}
@@ -220,4 +222,5 @@ body{
     object-fit: cover;
   }
 }
+
 
